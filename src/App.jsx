@@ -50,16 +50,16 @@ function App() {
         </motion.div>
       </header>
 
-      {/* ABOUT */}
+      
       <Section title="About Me">
         <p>
-          I’m a senior at Sarah Pyle Academy enrolled in the Twilight Program, and I’m passionate
+          I’m a senior at Glasgow High School, and I’m passionate
           about building creative and impactful technology. Over the past two years, I’ve worked
-          as a paid intern at Code Differently, leading frontend development teams and gaining
-          experience with React, Java, Spring Boot, and MySQL. I also completed a summer internship
+          as a paid intern at Code Differently, partipating in frontend development teams and gaining
+          experience with React, Java, Spring Boot, and MySQL. I also completed a paid summer internship
           at J.P. Morgan Chase, where I strengthened my Java skills and learned how large-scale
           systems operate. <br /><br />
-          I’ve earned recognition including the NCWIT Delaware Award and top placements at Delaware
+          I’ve earned recognition including the NCWIT Delaware Award and top placements at Delaware's
           BPA States. I’m excited to pursue a computer science degree and eventually become a
           software architect, building systems that make a difference in people’s everyday lives.
         </p>
