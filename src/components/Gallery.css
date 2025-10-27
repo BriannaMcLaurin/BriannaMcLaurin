@@ -1,0 +1,81 @@
+.gallery-section {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .gallery-section h2 {
+    color: #3b82f6;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .slide {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* Adjust height as needed */
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 200px; /* your chosen size */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .caption {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    z-index: 2;
+  }
+  
+  .arrow:hover {
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+  }
+  
+  .arrow.prev {
+    left: 10px;
+  }
+  
+  .arrow.next {
+    right: 10px;
+  }
+  
+  .slick-dots {
+    bottom: -35px;
+  }
+
+  .slick-track {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow.prev {
+    left: calc(50% - 150px);
+  }
+  
+  .arrow.next {
+    right: calc(50% - 150px);
+  }
+  
