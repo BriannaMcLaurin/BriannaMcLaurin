@@ -33,10 +33,10 @@ function App() {
           <div className="hero-text">
             <h1>Brianna McLaurin</h1>
             <p className="tagline">
-              Aspiring Software Architect • Frontend Developer • NCWIT Award Winner
+              Aspiring Software Architect • Software Engineer • NCWIT Award Winner
             </p>
             <div className="buttons">
-              <a href="#projects" className="btn">View My Work</a>
+              <a href="https://github.com/BriannaMcLaurin" className="btn">View My Work</a>
               <a
                 href="https://www.linkedin.com/in/brianna-mclaurin-388518288/"
                 target="_blank"
@@ -55,10 +55,10 @@ function App() {
         <p>
           I’m a senior at Glasgow High School, and I’m passionate
           about building creative and impactful technology. Over the past two years, I’ve worked
-          as a paid intern at Code Differently, partipating in frontend development teams and gaining
+          as a paid intern at Code Differently, partipating in full-stack development teams and gaining
           experience with React, Java, Spring Boot, and MySQL. I also completed a paid summer internship
-          at J.P. Morgan Chase, where I strengthened my Java skills and learned how large-scale
-          systems operate. <br /><br />
+          at J.P. Morgan Chase, where I strengthened my Java skills and worked in a scrum team to contribute 
+          to a internal use JPMC application. <br /><br />
           I’ve earned recognition including the NCWIT Delaware Award and top placements at Delaware's
           BPA States. I’m excited to pursue a computer science degree and eventually become a
           software architect, building systems that make a difference in people’s everyday lives.
@@ -72,33 +72,50 @@ function App() {
           <p>
             A real-time multiplayer emoji guessing game built with React and Socket.io. Players
             compete to identify emojis as quickly as possible in timed rounds. I built the frontend
-            interface, integrated WebSocket communication, and polished the UI for mobile.
+            interface, integrated Firebase Database, and polished the UI for mobile.
           </p>
-          <p className="tech">React • Node.js • Socket.io</p>
+          <p className="tech">React • Firebase</p>
           <div className="links">
-            <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://mock-client-project-emojiduel-fzji3scp1.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BriannaMcLaurin/mock-client-project-emojiduel" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>
-
         <div className="project">
-          <h3>Internship Development Projects</h3>
+          <h3>Wordle with a twist</h3>
           <p>
-            During my two-year internship at Code Differently, I worked on full-stack applications
-            as part of agile teams. I led a small group of interns, built responsive React interfaces,
-            and integrated them with Java Spring Boot and MySQL backends.
+           This is a project I made during my time at Code Differently. 
+           It is a wordle game with a twist. Just like regular wordle, you have to guess the word in 6 tries. But, in this game, after 3 attepmts you get a hint. 
+           The hint is the defintion of the word.
           </p>
-          <p className="tech">React • Spring Boot • MySQL</p>
+          <p className="tech">React</p>
+          <div className="links">
+            <a href="https://mock-client-project-emojiduel-fzji3scp1.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BriannaMcLaurin/Wordle-project" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+        <div className="project">
+          <h3>Stagefright</h3>
+          <p>
+            This is a mock website I made for the 2025 Delaware BPA State Competition.
+            It is a mock website for a Rock Band. 
+            The website consist of a home page, an about page, a tour dates page, and a contact page
+            with a top nav bar and a footer.
+          </p>
+          <p className="tech">React • Firebase</p>
+          <div className="links">
+            <a href="https://mock-client-project-emojiduel-fzji3scp1.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            <a href="https://github.com/BriiMariee/StageFright" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
         </div>
       </Section>
 
       {/* EXPERIENCE */}
       <Section title="Experience & Leadership">
         <ul>
-          <li><strong>Code Differently</strong> — Paid Internship (2 yrs), led frontend teams</li>
+          <li><strong>Code Differently</strong> — Paid Internship (2 yrs)</li>
           <li><strong>J.P. Morgan Chase</strong> — Tech Intern, Java development</li>
           <li><strong>BPA</strong> — 1st Place Computer Programming Concepts; 2nd Place Digital Communication & Design Concepts</li>
-          <li><strong>Key Club</strong> — Vice President (2023), Webmaster (2024)</li>
+          <li><strong>Key Club</strong> — Vice President (2023, 2025), Webmaster (2024)</li>
           <li><strong>NCWIT Delaware Award Winner</strong></li>
         </ul>
       </Section>
@@ -110,9 +127,9 @@ function App() {
       <Section title="Contact">
         <p>📧 briannamclaurinn@gmail.com</p>
         <p>
-          <a href="https://www.linkedin.com/in/brianna-mclaurin-388518288/" target="https://www.linkedin.com/in/brianna-mclaurin-388518288/" rel="noreferrer">LinkedIn</a>{" "}
+          <a href="https://www.linkedin.com/in/brianna-mclaurin-388518288/" target="_blank" rel="noreferrer">LinkedIn</a>{" "}
           |{" "}
-          <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/BriannaMcLaurin" target="_blank" rel="noreferrer">GitHub</a>
         </p>
       </Section>
 
