@@ -33,7 +33,7 @@ function App() {
           <div className="hero-text">
             <h1>Brianna McLaurin</h1>
             <p className="tagline">
-              Aspiring Software Architect • Software Engineer • NCWIT Award Winner
+              Aspiring Product Manager • NCWIT Award Winner
             </p>
             <div className="buttons">
               <a href="https://github.com/BriannaMcLaurin" className="btn">View My Work</a>
@@ -60,8 +60,7 @@ function App() {
           at J.P. Morgan Chase, where I strengthened my Java skills and worked in a scrum team to contribute 
           to a internal use JPMC application. <br /><br />
           I’ve earned recognition including the NCWIT Delaware Award and top placements at Delaware's
-          BPA States. I’m excited to pursue a computer science degree and eventually become a
-          software architect, building systems that make a difference in people’s everyday lives.
+          BPA States.
         </p>
       </Section>
 
@@ -115,6 +114,7 @@ function App() {
           <li><strong>Code Differently</strong> — Paid Internship (2 yrs)</li>
           <li><strong>J.P. Morgan Chase</strong> — Tech Intern, Java development</li>
           <li><strong>BPA</strong> — 1st Place Computer Programming Concepts; 2nd Place Digital Communication & Design Concepts</li>
+          <li><strong>DECA</strong> — Member</li>
           <li><strong>Key Club</strong> — Vice President (2023, 2025), Webmaster (2024)</li>
           <li><strong>NCWIT Delaware Award Winner</strong></li>
         </ul>
