@@ -16,6 +16,7 @@ const images = [
   { src: "IMG_3502.jpeg", caption: "DECA Delaware States 2024" },
   { src: "ic3 certification.jpg", caption: "IC3 Digital Literacy Certification 2023" },
   { src: "Java hackerRank.png", caption: "Java HackerRank Certification 2025" },
+  { src: "Quickbook Cert.jpeg", caption: "Intuit QuickBooks Online Certified User 2025" },
 ];
 
 // Custom arrow components
