@@ -33,7 +33,7 @@ function App() {
           <div className="hero-text">
             <h1>Brianna McLaurin</h1>
             <p className="tagline">
-              Aspiring Product Manager • NCWIT Award Winner
+              Tech Lover • NCWIT Award Winner
             </p>
             <div className="buttons">
               <a href="https://github.com/BriannaMcLaurin" className="btn">View My Work</a>
