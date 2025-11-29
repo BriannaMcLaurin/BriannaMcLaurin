@@ -11,7 +11,7 @@ const images = [
   { src: "IMG_0236.jpeg", caption: "NCWIT Delaware Award Winner" },
   { src: "IMG_0237.jpeg", caption: "National Honor Society Induction 2024" },
   { src: "IMG_0287.jpeg", caption: "Key Club District Convention 2025" },
-  { src: "IMG_6367.HEIC.jpeg", caption: "JPMorgan Chasr Internship 2025" },
+  { src: "IMG_6367.HEIC.jpeg", caption: "JPMorgan Chase Internship 2025" },
   { src: "IMG_3525.jpeg", caption: "DECA Delaware States 2024" },
   { src: "IMG_3502.jpeg", caption: "DECA Delaware States 2024" },
   { src: "ic3 certification.jpg", caption: "IC3 Digital Literacy Certification 2023" },
