@@ -33,7 +33,7 @@ function App() {
           <div className="hero-text">
             <h1>Brianna McLaurin</h1>
             <p className="tagline">
-              Tech Lover • NCWIT Award Winner
+              Tech Enthusiast • NCWIT Award Winner
             </p>
             <div className="buttons">
               <a href="https://github.com/BriannaMcLaurin" className="btn">View My Work</a>
@@ -84,11 +84,11 @@ function App() {
           <p>
            This is a project I made during my time at Code Differently. 
            It is a wordle game with a twist. Just like regular wordle, you have to guess the word in 6 tries. But, in this game, after 3 attepmts you get a hint. 
-           The hint is the defintion of the word.
+           The hint is the defintion of the word. This is a Frontend only project.
           </p>
           <p className="tech">React</p>
           <div className="links">
-            <a href="https://mock-client-project-emojiduel-fzji3scp1.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            <a href="https://wordle-project-mocha.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
             <a href="https://github.com/BriannaMcLaurin/Wordle-project" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>
@@ -102,7 +102,7 @@ function App() {
           </p>
           <p className="tech">React • Firebase</p>
           <div className="links">
-            <a href="https://mock-client-project-emojiduel-fzji3scp1.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            <a href="https://stage-fright-flax.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
             <a href="https://github.com/BriiMariee/StageFright" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>
