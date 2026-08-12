@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import { ChevronLeft, ChevronRight } from "lucide-react"; // nice modern arrows
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Gallery.css";
 
 const images = [
-  { src: "IMG_0235.jpeg", caption: "1st Place, Computer Programming Concepts - BPA States" },
+  { src: "IMG_0235.jpeg", caption: "1st Place, Computer Programming Concepts — BPA States" },
   { src: "IMG_0234.jpeg", caption: "2025 BPA Nationals, Orlando, FL" },
   { src: "IMG_0236.jpeg", caption: "NCWIT Delaware Award Winner" },
   { src: "IMG_0237.jpeg", caption: "National Honor Society Induction 2024" },
@@ -19,21 +19,41 @@ const images = [
   { src: "Quickbook Cert.jpeg", caption: "Intuit QuickBooks Online Certified User 2025" },
 ];
 
-// Custom arrow components
-function NextArrow(props) {
-  const { onClick } = props;
+function arrowKeyHandler(onClick) {
+  return (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onClick();
+    }
+  };
+}
+
+function NextArrow({ onClick }) {
   return (
-    <div className="arrow next" onClick={onClick}>
-      <ChevronRight size={28} />
+    <div
+      className="arrow next"
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      aria-label="Next slide"
+      onKeyDown={arrowKeyHandler(onClick)}
+    >
+      <ChevronRight size={20} />
     </div>
   );
 }
 
-function PrevArrow(props) {
-  const { onClick } = props;
+function PrevArrow({ onClick }) {
   return (
-    <div className="arrow prev" onClick={onClick}>
-      <ChevronLeft size={28} />
+    <div
+      className="arrow prev"
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      aria-label="Previous slide"
+      onKeyDown={arrowKeyHandler(onClick)}
+    >
+      <ChevronLeft size={20} />
     </div>
   );
 }
@@ -46,24 +66,26 @@ function Gallery() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 4500,
+    pauseOnHover: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     adaptiveHeight: true,
   };
 
   return (
-    <section className="gallery-section">
-      <h2>Achievements</h2>
+    <div className="gallery-wrap">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="slide">
-            <img src={image.src} alt={image.caption} />
+            <div className="slide-frame">
+              <img src={image.src} alt={image.caption} />
+            </div>
             <p className="caption">{image.caption}</p>
           </div>
         ))}
       </Slider>
-    </section>
+    </div>
   );
 }
 
