@@ -17,7 +17,6 @@ function Footer() {
           <p className="footer-heading">Quick Links</p>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/services">Web Design Services</Link>
-          <Link to="/gallery">Gallery</Link>
           <Link to="/contact">Contact</Link>
         </div>
 

@@ -448,6 +448,28 @@ textarea:focus-visible {
   border-bottom: 1px dashed var(--border);
 }
 
+.addons-list li.addon-featured {
+  background: var(--brass-tint);
+  border: 1px solid var(--brass);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem 0.75rem;
+  margin: -0.1rem 0;
+}
+
+.addon-tag {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--brass);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}
+
 .addons-price {
   color: var(--navy-700);
   font-weight: 600;

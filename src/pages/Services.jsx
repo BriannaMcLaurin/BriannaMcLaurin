@@ -77,7 +77,7 @@ const ADD_ONS = [
   { name: "E-commerce / online store", price: "From $350" },
   { name: "Booking & payment integration", price: "$250" },
   { name: "Admin dashboard", price: "$300" },
-  { name: "Monthly maintenance & updates", price: "$50/mo" },
+  { name: "Monthly maintenance & updates", price: "$50/mo", tag: "Highly Recommended" },
   { name: "Rush delivery (under 2 weeks)", price: "$150" },
 ];
 
